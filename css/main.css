@@ -1,0 +1,94 @@
+
+body {
+    margin: 0;
+    background-color: rgba(245, 245, 245, 0.9);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+#hero {
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+}
+
+#hero h1 {
+    font-size: 50px;
+}
+  
+main {
+    padding: 10%;
+    display: grid;
+    grid: 150px;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.card img {
+    border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
+    height: 250px;
+    width: 100%;
+}
+
+.card {
+    margin: 20px;
+    border-radius: 10px;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.card p {
+    padding: 0 20px 20px 20px;
+}
+
+.card h2 {
+    padding: 0 20px 20px 20px;
+}
+
+footer {
+    background-color: rgb(64, 64, 64);
+    color: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner{
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+ #link{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(209, 148, 125);
+ }
+ #image{
+    opacity: 1;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ p{
+    text-align: left;
+    line-height: 1.4;
+    font-size: 25px;
+    margin-right: 33%;
+    margin-left: 3%;
+ }
+
